@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/housseindhayne/node-todo.git"
+    "url": "git+https://github.com/housseindhayne/sharing-books.git"
   },
   "keywords": [
     "books","sharing","mena"
@@ -26,7 +26,7 @@
   "author": "Houssein Dhayne",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/housseindhayne/node-todo/issues"
+    "url": "https://github.com/housseindhayne/sharing-books/issues"
   },
-  "homepage": "https://github.com/housseindhayne/node-todo#readme"
+  "homepage": "https://github.com/housseindhayne/sharing-books#readme"
 }

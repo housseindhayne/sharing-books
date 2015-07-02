@@ -5,8 +5,8 @@ app.controller('MainController', [
             $scope.title = 'Books to share';
 
             // GET =====================================================================
-            // when landing on the page, get all todos and show them
-            // use the service to get all the todos
+            // when landing on the page, get all books and show them
+            // use the service to get all the books
             books.get().success(function(data) {
                 $scope.products = data;
                 for (var i = 0; i < $scope.products.length; i++) {

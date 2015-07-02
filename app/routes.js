@@ -1,16 +1,4 @@
-var Todo = require('./models/todo');
 var Book = require('./models/book');
-
-function getTodos(res){
-	Todo.find(function(err, todos) {
-
-			// if there is an error retrieving, send the error. nothing after res.send(err) will execute
-			if (err)
-				res.send(err)
-
-			res.json(todos); // return all todos in JSON format
-		});
-};
 
 function getBooks(res){
 	Book.find(function(err, books) {
@@ -77,7 +65,7 @@ module.exports = function(app) {
 	// delete a book
 	app.delete('/api/books/:book_id', function(req, res) {
 		Book.remove({
-			_id : req.params.todo_id
+			_id : req.params.book_id
 		}, function(err, book) {
 			if (err)
 				res.send(err);
