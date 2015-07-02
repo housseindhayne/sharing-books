@@ -1,0 +1,32 @@
+{
+  "name": "sharing-books",
+  "version": "1.0.0",
+  "description": "a single page application to list books to share and allows reserving and adding books",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "mongoose": "^3.8.31",
+    "express": "^4.6.1",
+    "jquery": "^2.1.4",
+    "morgan": "^1.1.1",
+    "method-override": "^2.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/housseindhayne/node-todo.git"
+  },
+  "keywords": [
+    "books","sharing","mena"
+  ],
+  "author": "Houssein Dhayne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/housseindhayne/node-todo/issues"
+  },
+  "homepage": "https://github.com/housseindhayne/node-todo#readme"
+}
