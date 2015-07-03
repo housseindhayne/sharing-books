@@ -9,13 +9,6 @@ app.controller('MainController', [
             // use the service to get all the books
             books.get().success(function(data) {
                 $scope.products = data;
-                for (var i = 0; i < $scope.products.length; i++) {
-                    if ($scope.products[i].reserved == 0)
-                        $scope.products[i].reserve = "reserve"
-                    else
-                        $scope.products[i].reserve = "release"
-                }
-
                 $scope.loading = false;
             });
 
